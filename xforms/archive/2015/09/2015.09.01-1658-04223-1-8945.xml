@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><form xmlns:jr="http://openrosa.org/javarosa" xmlns:openmrs="formentry.infopath_server_url cannot be empty/moduleServlet/formentry/forms/schema/24-1" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="24" name="Treatment" uuid="4cede4ec-881b-4714-8534-a820aadfe00f" version="8">
+  <header>
+    <enterer>1^Super User</enterer>
+    <date_entered>2015-09-01T16:58:04+03:00</date_entered>
+    <session>9A5B1FEFEDB7BAC58023AD6C31D3B780</session>
+    <uid>xRxKbhOjbFDehrjdVIwB</uid>
+  </header>
+  <patient uuid="a087715e-f268-407a-a204-849f04d97cd7">
+    <patient.birthdate openmrs_attribute="birthdate" openmrs_table="patient">1992-09-16</patient.birthdate>
+    <patient.family_name openmrs_attribute="family_name" openmrs_table="patient_name">lulu</patient.family_name>
+    <patient.given_name openmrs_attribute="given_name" openmrs_table="patient_name">lulu</patient.given_name>
+    <patient.medical_record_number openmrs_attribute="identifier" openmrs_table="patient_identifier"/>
+    <patient.middle_name openmrs_attribute="middle_name" openmrs_table="patient_name">lulu</patient.middle_name>
+    <patient.patient_id openmrs_attribute="patient_id" openmrs_table="patient">12</patient.patient_id>
+    <patient.sex openmrs_attribute="gender" openmrs_table="patient">F</patient.sex>
+    <patient_relative>
+      <patient_relative.person/>
+      <patient_relative.relationship/>
+    </patient_relative>
+  </patient>
+  <encounter>
+    <encounter.encounter_datetime openmrs_attribute="encounter_datetime" openmrs_table="encounter">2015-09-01</encounter.encounter_datetime>
+    <encounter.location_id openmrs_attribute="location_id" openmrs_table="encounter">1</encounter.location_id>
+    <encounter.provider_id openmrs_attribute="provider_id" openmrs_table="encounter" provider_id_type="PROVIDER.ID">2</encounter.provider_id>
+  </encounter>
+  <obs openmrs_concept="162778^MEDICAL RECORD OBSERVATIONS^99DCT" openmrs_datatype="ZZ">
+    <drugquestionset openmrs_concept="162788^DrugQuestionSet^99DCT" openmrs_datatype="ZZ">
+      <drugquestion openmrs_concept="162786^DrugQuestion^99DCT" openmrs_datatype="ST">
+            <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true">162643-Amoxicllin, Cap</value>
+      </drugquestion>
+    </drugquestionset>
+  </obs>
+  </form>

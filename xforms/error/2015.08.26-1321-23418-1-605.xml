@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><form xmlns:jr="http://openrosa.org/javarosa" xmlns:openmrs="formentry.infopath_server_url cannot be empty/moduleServlet/formentry/forms/schema/10-1" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="10" name="Treatment" uuid="12cab0d5-89ab-46ca-8dc8-8ce87f1936c7" version="3.0">
+  <header>
+    <enterer>1^Super User</enterer>
+    <date_entered>2015-08-26T13:21:23+03:00</date_entered>
+    <session>276EC17B685F19D45ED470307B38E48A</session>
+    <uid>bKb1LDmdmdwVvOr3DT39</uid>
+  </header>
+  <patient uuid="1d9458d3-de70-4cc0-bc83-be4d6c8384be">
+    <patient.birthdate openmrs_attribute="birthdate" openmrs_table="patient">2011-08-17</patient.birthdate>
+    <patient.family_name openmrs_attribute="family_name" openmrs_table="patient_name">test3</patient.family_name>
+    <patient.given_name openmrs_attribute="given_name" openmrs_table="patient_name">test3</patient.given_name>
+    <patient.medical_record_number openmrs_attribute="identifier" openmrs_table="patient_identifier"/>
+    <patient.middle_name openmrs_attribute="middle_name" openmrs_table="patient_name">test3</patient.middle_name>
+    <patient.patient_id openmrs_attribute="patient_id" openmrs_table="patient">5</patient.patient_id>
+    <patient.sex openmrs_attribute="gender" openmrs_table="patient">M</patient.sex>
+    <patient_relative>
+      <patient_relative.person/>
+      <patient_relative.relationship/>
+    </patient_relative>
+  </patient>
+  <encounter>
+    <encounter.encounter_datetime openmrs_attribute="encounter_datetime" openmrs_table="encounter">2015-08-26</encounter.encounter_datetime>
+    <encounter.location_id openmrs_attribute="location_id" openmrs_table="encounter">1</encounter.location_id>
+    
+  </encounter>
+  <obs openmrs_concept="162778^MEDICAL RECORD OBSERVATIONS^99DCT" openmrs_datatype="ZZ">
+    <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+  </obs>
+  <obs><ssss/></obs><encounter><encounter.provider_id/></encounter></form>

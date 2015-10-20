@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><form xmlns:openmrs="formentry.infopath_server_url cannot be empty/moduleServlet/formentry/forms/schema/43-1" xmlns:jr="http://openrosa.org/javarosa" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="43" name="test1" uuid="54eae007-c569-417d-b531-965d1d5e417e" version="1.0">
+  <header>
+    <enterer>1^Super User</enterer>
+    <date_entered>2015-09-29T10:33:42+03:00</date_entered>
+    <session>9A193A313AA7AE70D2C1095C63A91A80</session>
+    <uid>hb8g5oh5X7YuaOJxsYZL</uid>
+  </header>
+  <patient uuid="1254e85c-0609-46e0-be73-be96f2df5a0b">
+    <patient.birthdate openmrs_attribute="birthdate" openmrs_table="patient">2009-09-18</patient.birthdate>
+    <patient.family_name openmrs_attribute="family_name" openmrs_table="patient_name">test1</patient.family_name>
+    <patient.given_name openmrs_attribute="given_name" openmrs_table="patient_name">test1</patient.given_name>
+    <patient.medical_record_number openmrs_attribute="identifier" openmrs_table="patient_identifier"/>
+    <patient.middle_name openmrs_attribute="middle_name" openmrs_table="patient_name">test1</patient.middle_name>
+    <patient.patient_id openmrs_attribute="patient_id" openmrs_table="patient">21</patient.patient_id>
+    <patient.sex openmrs_attribute="gender" openmrs_table="patient">M</patient.sex>
+    <patient_relative>
+      <patient_relative.person/>
+      <patient_relative.relationship/>
+    </patient_relative>
+  </patient>
+  <encounter>
+    <encounter.visit_id openmrs_attribute="visit_id" openmrs_table="encounter">1</encounter.visit_id>
+    <encounter.encounter_datetime openmrs_attribute="encounter_datetime" openmrs_table="encounter">2015-09-29</encounter.encounter_datetime>
+    <encounter.location_id openmrs_attribute="location_id" openmrs_table="encounter">1</encounter.location_id>
+    <encounter.provider_id openmrs_attribute="provider_id" openmrs_table="encounter" provider_id_type="PROVIDER.ID">2</encounter.provider_id>
+  </encounter>
+  <obs openmrs_concept="162778^MEDICAL RECORD OBSERVATIONS^99DCT" openmrs_datatype="ZZ">
+    <comments openmrs_concept="162851^Comments^99DCT" openmrs_datatype="ST">
+        <date xsi:nil="true"/>
+        <time xsi:nil="true"/>
+        <value xsi:nil="true">grgrgrg</value>
+    </comments>
+  </obs>
+  </form>

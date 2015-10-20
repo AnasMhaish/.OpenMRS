@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><form xmlns:jr="http://openrosa.org/javarosa" xmlns:openmrs="formentry.infopath_server_url cannot be empty/moduleServlet/formentry/forms/schema/48-1" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="48" name="Medical Form" uuid="9deb4f53-e850-4a0e-9007-60adb638e019" version="13">
+  <header>
+    <enterer>1^Super User</enterer>
+    <date_entered>2015-10-19T10:06:43+03:00</date_entered>
+    <session>DBB60C7E6E62F3200328747A497181ED</session>
+    <uid>l03Xmtq5GVSEMnojEaKM</uid>
+  </header>
+  <patient uuid="ce09ef74-1c0a-4b7f-aeb2-d60430c376e7">
+    <patient.sex openmrs_attribute="gender" openmrs_table="patient">M</patient.sex>
+    <patient.medical_record_number openmrs_attribute="identifier" openmrs_table="patient_identifier"/>
+    <patient.patient_id openmrs_attribute="patient_id" openmrs_table="patient">31</patient.patient_id>
+    <patient_relative>
+      <patient_relative.person/>
+      <patient_relative.relationship/>
+    </patient_relative>
+  </patient>
+  <encounter>
+    <encounter.visit_id openmrs_attribute="visit_id" openmrs_table="encounter">24</encounter.visit_id>
+    <encounter.encounter_datetime openmrs_attribute="encounter_datetime" openmrs_table="encounter">2015-10-19</encounter.encounter_datetime>
+    <encounter.location_id openmrs_attribute="location_id" openmrs_table="encounter">1</encounter.location_id>
+    <encounter.provider_id openmrs_attribute="provider_id" openmrs_table="encounter" provider_id_type="PROVIDER.ID">2</encounter.provider_id>
+  </encounter>
+  <obs openmrs_concept="162778^MEDICAL RECORD OBSERVATIONS^99DCT" openmrs_datatype="ZZ">
+    <visit_diagnoses openmrs_concept="159947^Visit Diagnoses^99DCT" openmrs_datatype="ZZ">
+      <diagnosis_list multiple="0" openmrs_concept="1284^DIAGNOSIS LIST^99DCT" openmrs_datatype="CWE">
+            <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+      </diagnosis_list>
+      <diagnosis_or_problem_non-coded openmrs_concept="161602^Diagnosis or problem, non-coded^99DCT" openmrs_datatype="ST">
+            <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+      </diagnosis_or_problem_non-coded>
+      <diagnosis_certainty multiple="0" openmrs_concept="159394^Diagnosis certainty^99DCT" openmrs_datatype="CWE">
+            <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+      </diagnosis_certainty>
+      <diagnosis_order multiple="0" openmrs_concept="159946^Diagnosis order^99DCT" openmrs_datatype="CWE">
+            <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+      </diagnosis_order>
+      <diagnosis_date openmrs_concept="159948^Diagnosis date^99DCT" openmrs_datatype="DT">
+            <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+      </diagnosis_date>
+    </visit_diagnoses>
+    <other_opd_diagnosis openmrs_concept="162879^Other OPD Diagnosis^99DCT" openmrs_datatype="ST">
+        <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true">yy</value>
+    </other_opd_diagnosis>
+    <other_nutrition_diagnosis openmrs_concept="162889^other Nutrition Diagnosis^99DCT" openmrs_datatype="ST">
+        <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true">yy</value>
+    </other_nutrition_diagnosis>
+    <other_rh_diagnosis openmrs_concept="162887^Other RH Diagnosis^99DCT" openmrs_datatype="ST">
+        <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    </other_rh_diagnosis>
+    <opd_diagnosis multiple="0" openmrs_concept="162806^OPD Diagnosis^99DCT" openmrs_datatype="CWE">
+        <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true">162596^Tuberculosis^99DCT</value>
+    </opd_diagnosis>
+    <rh_diagnosis multiple="0" openmrs_concept="162807^RH Diagnosis^99DCT" openmrs_datatype="CWE">
+        <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    </rh_diagnosis>
+    <vaccines_diagnosis openmrs_concept="162818^Vaccines Diagnosis^99DCT" openmrs_datatype="ST">
+        <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    </vaccines_diagnosis>
+    <nutrition_diagnosis multiple="0" openmrs_concept="162819^Nutrition Diagnosis^99DCT" openmrs_datatype="CWE">
+        <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    </nutrition_diagnosis>
+    <diagnosis_type multiple="0" openmrs_concept="162845^Diagnosis Type^99DCT" openmrs_datatype="CWE">
+        <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    </diagnosis_type>
+    <sgbv_happened_time openmrs_concept="162880^SGBV happened Time^99DCT" openmrs_datatype="NM">
+        <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    </sgbv_happened_time>
+    <high-risk_pregnancy openmrs_concept="162871^High-risk Pregnancy^99DCT" openmrs_datatype="BIT">
+        <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <value infopath_boolean_hack="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    </high-risk_pregnancy>
+    <birth_weight openmrs_concept="162815^Birth Weight (g)^99DCT" openmrs_datatype="NM">
+        <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    </birth_weight>
+    <skilled_health_worker_attendance openmrs_concept="162866^Skilled Health Worker Attendance^99DCT" openmrs_datatype="BIT">
+        <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <value infopath_boolean_hack="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    </skilled_health_worker_attendance>
+    <abortion openmrs_concept="162868^Abortion^99DCT" openmrs_datatype="BIT">
+        <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <value infopath_boolean_hack="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    </abortion>
+    <live_births openmrs_concept="162867^Live Births^99DCT" openmrs_datatype="BIT">
+        <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <value infopath_boolean_hack="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    </live_births>
+    <still_births openmrs_concept="162891^Still Births^99DCT" openmrs_datatype="BIT">
+        <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <value infopath_boolean_hack="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    </still_births>
+    <obstetrics_complications openmrs_concept="162869^Obstetrics complications^99DCT" openmrs_datatype="BIT">
+        <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <value infopath_boolean_hack="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    </obstetrics_complications>
+    <home_delivery openmrs_concept="162870^Home Delivery^99DCT" openmrs_datatype="BIT">
+        <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <value infopath_boolean_hack="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    </home_delivery>
+    <treatment_order openmrs_concept="163035^Treatment Order^99DCT" openmrs_datatype="ZZ">
+      <rh_treatment_name openmrs_concept="162786^RH Treatment Name^99DCT" openmrs_datatype="ST">
+            <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+      </rh_treatment_name>
+      <opd_treatment_name openmrs_concept="162890^OPD Treatment name^99DCT" openmrs_datatype="ST">
+            <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+      </opd_treatment_name>
+      <standardized_case_management_protocols openmrs_concept="162884^Standardized Case Management Protocols^99DCT" openmrs_datatype="BIT">
+            <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <value infopath_boolean_hack="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+      </standardized_case_management_protocols>
+      <available openmrs_concept="162859^Available^99DCT" openmrs_datatype="BIT">
+            <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <value infopath_boolean_hack="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+      </available>
+    </treatment_order>
+    <vaccine_diagnosis openmrs_concept="162801^Vaccine Diagnosis^99DCT" openmrs_datatype="ZZ">
+      <vaccine_question multiple="0" openmrs_concept="162802^Vaccine Question^99DCT" openmrs_datatype="CWE">
+            <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+      </vaccine_question>
+      <vaccine_dose_question multiple="0" openmrs_concept="162803^Vaccine Dose Question^99DCT" openmrs_datatype="CWE">
+            <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+      </vaccine_dose_question>
+    </vaccine_diagnosis>
+    <disposition multiple="0" openmrs_concept="162850^Disposition^99DCT" openmrs_datatype="CWE">
+        <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    </disposition>
+    <comments openmrs_concept="162851^Comments^99DCT" openmrs_datatype="ST">
+        <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    </comments>
+    <history_story openmrs_concept="162865^History Story^99DCT" openmrs_datatype="ST">
+        <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    </history_story>
+    <follow_up openmrs_concept="162863^Follow up^99DCT" openmrs_datatype="ST">
+        <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    </follow_up>
+  </obs>
+  </form>

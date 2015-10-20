@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><form xmlns:jr="http://openrosa.org/javarosa" xmlns:openmrs="formentry.infopath_server_url cannot be empty/moduleServlet/formentry/forms/schema/26-1" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="26" name="Add Vaccines" uuid="1157abaf-93b6-4ae8-9c8e-f520d80cfb44" version="2">
+  <header>
+    <enterer>1^Super User</enterer>
+    <date_entered>2015-09-08T14:16:35+03:00</date_entered>
+    <session>EB86D5CBFF2E6C0CD68BEEF788701ACC</session>
+    <uid>6E25qrn9iN6GTxLL7Ejm</uid>
+  </header>
+  <patient uuid="9d569906-cc90-4f0c-927b-3bb20d48febd">
+    <patient.birthdate openmrs_attribute="birthdate" openmrs_table="patient">2012-09-11</patient.birthdate>
+    <patient.family_name openmrs_attribute="family_name" openmrs_table="patient_name">test2</patient.family_name>
+    <patient.given_name openmrs_attribute="given_name" openmrs_table="patient_name">test2</patient.given_name>
+    <patient.medical_record_number openmrs_attribute="identifier" openmrs_table="patient_identifier"/>
+    <patient.middle_name openmrs_attribute="middle_name" openmrs_table="patient_name">test2</patient.middle_name>
+    <patient.patient_id openmrs_attribute="patient_id" openmrs_table="patient">15</patient.patient_id>
+    <patient.sex openmrs_attribute="gender" openmrs_table="patient">F</patient.sex>
+    <patient_relative>
+      <patient_relative.person/>
+      <patient_relative.relationship/>
+    </patient_relative>
+  </patient>
+  <encounter>
+    <encounter.encounter_datetime openmrs_attribute="encounter_datetime" openmrs_table="encounter">2015-09-08</encounter.encounter_datetime>
+    <encounter.location_id openmrs_attribute="location_id" openmrs_table="encounter"/>
+    <encounter.provider_id openmrs_attribute="provider_id" openmrs_table="encounter" provider_id_type="PROVIDER.ID"/>
+  </encounter>
+  <obs openmrs_concept="162778^MEDICAL RECORD OBSERVATIONS^99DCT" openmrs_datatype="ZZ">
+    <vaccine_order openmrs_concept="162801^Vaccine Order^99DCT" openmrs_datatype="ZZ">
+      <vaccine_question multiple="0" openmrs_concept="162802^Vaccine Question^99DCT" openmrs_datatype="CWE">
+            <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true">162775^Hepatitis B^99DCT</value>
+      </vaccine_question>
+      <vaccine_dose_question multiple="0" openmrs_concept="162803^Vaccine Dose Question^99DCT" openmrs_datatype="CWE">
+            <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true">162792^Dose 2^99DCT</value>
+      </vaccine_dose_question>
+    </vaccine_order>
+  <vaccine_order openmrs_concept="162801^Vaccine Order^99DCT" openmrs_datatype="ZZ">
+      <vaccine_question multiple="0" new="true()" openmrs_concept="162802^Vaccine Question^99DCT" openmrs_datatype="CWE">
+            <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <value new="true()" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true">162775^Hepatitis B^99DCT</value>
+      </vaccine_question>
+      <vaccine_dose_question multiple="0" new="true()" openmrs_concept="162803^Vaccine Dose Question^99DCT" openmrs_datatype="CWE">
+            <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            <value new="true()" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true">162793^Dose 3^99DCT</value>
+      </vaccine_dose_question>
+    </vaccine_order></obs>
+  </form>

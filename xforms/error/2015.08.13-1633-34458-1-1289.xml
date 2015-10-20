@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><patient xmlns:jr="http://openrosa.org/javarosa" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" description-template="${/patient/family_name}$ ${/patient/middle_name}$ ${/patient/given_name}$" id="0" name="Patient">
+        <enterer>1^Super User</enterer>
+        <family_name>test5</family_name>
+        
+        <given_name>test5</given_name>
+        <birth_date>2012-08-16</birth_date>
+        <birth_date_estimated>false</birth_date_estimated>
+        <identifier>10009</identifier>
+        
+        <gender>M</gender>
+        <degree/>
+        
+        
+        
+        
+        <location_id>1</location_id>
+        <patient_identifier_type_id>3</patient_identifier_type_id>
+        <person_attribute2/>
+        <person_attribute3/>
+        <person_attribute5/>
+        <person_attribute7/>
+        <person_attribute6/>
+        
+        
+        <person_attribute8/>
+        
+        
+        <person_address_address1/>
+        
+        <person_address_city_village/>
+        <person_address_state_province/>
+        
+        
+        <person_address_latitude/>
+        <person_address_longitude/>
+        
+        
+        
+        
+        
+        
+      <personal_identifier_type>family_booklet</personal_identifier_type><origin_village>test5</origin_village><vulnerability>seperated_child</vulnerability><displaced_period>3</displaced_period><personal_identifier>fef2</personal_identifier><father_name>test5</father_name></patient>

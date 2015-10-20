@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><form xmlns:openmrs="formentry.infopath_server_url cannot be empty/moduleServlet/formentry/forms/schema/37-1" xmlns:jr="http://openrosa.org/javarosa" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="37" name="Medical Form" uuid="088c3a98-62b0-4a50-ae4f-5f919635899c" version="6">
+  <header>
+    <enterer>1^Super User</enterer>
+    <date_entered>2015-09-28T15:20:56+03:00</date_entered>
+    <session>0127254999BB7B7F988DEE3FC54B49F9</session>
+    <uid>mmjQbJgpsnB2LXih3fK4</uid>
+  </header>
+  <patient uuid="3927b3b7-7cc8-4ea2-ba3e-b38344fca3a9">
+    <patient.medical_record_number openmrs_attribute="identifier" openmrs_table="patient_identifier"/>
+    <patient.patient_id openmrs_attribute="patient_id" openmrs_table="patient">20</patient.patient_id>
+    <patient_relative>
+      <patient_relative.person/>
+      <patient_relative.relationship/>
+    </patient_relative>
+  </patient>
+  <encounter>
+    <encounter.visit_id openmrs_attribute="visit_id" openmrs_table="encounter">19</encounter.visit_id>
+    <encounter.encounter_datetime openmrs_attribute="encounter_datetime" openmrs_table="encounter">2015-09-28</encounter.encounter_datetime>
+    <encounter.location_id openmrs_attribute="location_id" openmrs_table="encounter">1</encounter.location_id>
+    <encounter.provider_id openmrs_attribute="provider_id" openmrs_table="encounter" provider_id_type="PROVIDER.ID">2</encounter.provider_id>
+  </encounter>
+  <obs openmrs_concept="162778^MEDICAL RECORD OBSERVATIONS^99DCT" openmrs_datatype="ZZ">
+    <opd_diagnosis multiple="0" openmrs_concept="162806^OPD Diagnosis^99DCT" openmrs_datatype="CWE">
+        <date xsi:nil="true"/>
+        <time xsi:nil="true"/>
+        <value xsi:nil="true"/>
+    </opd_diagnosis>
+    <rh_diagnosis multiple="0" openmrs_concept="162807^RH Diagnosis^99DCT" openmrs_datatype="CWE">
+        <date xsi:nil="true"/>
+        <time xsi:nil="true"/>
+        <value xsi:nil="true">162811^ANC 3+ Visit^99DCT</value>
+    </rh_diagnosis>
+    <vaccines_diagnosis openmrs_concept="162818^Vaccines Diagnosis^99DCT" openmrs_datatype="ST">
+        <date xsi:nil="true"/>
+        <time xsi:nil="true"/>
+        <value xsi:nil="true"/>
+    </vaccines_diagnosis>
+    <nutrition_diagnosis multiple="0" openmrs_concept="162819^Nutrition Diagnosis^99DCT" openmrs_datatype="CWE">
+        <date xsi:nil="true"/>
+        <time xsi:nil="true"/>
+        <value xsi:nil="true"/>
+    </nutrition_diagnosis>
+    <trauma_diagnosis multiple="0" openmrs_concept="162820^Trauma Diagnosis^99DCT" openmrs_datatype="CWE">
+        <date xsi:nil="true"/>
+        <time xsi:nil="true"/>
+        <value xsi:nil="true"/>
+    </trauma_diagnosis>
+    <standardized_case_management_protocols openmrs_concept="162884^Standardized Case Management Protocols^99DCT" openmrs_datatype="BIT">
+        <date xsi:nil="true"/>
+        <time xsi:nil="true"/>
+        <value infopath_boolean_hack="1" xsi:nil="true"/>
+    </standardized_case_management_protocols>
+    <diagnosis_type multiple="0" openmrs_concept="162845^Diagnosis Type^99DCT" openmrs_datatype="CWE">
+        <date xsi:nil="true"/>
+        <time xsi:nil="true"/>
+        <value xsi:nil="true">162807^RH Diagnosis^99DCT</value>
+    </diagnosis_type>
+    <sgbv_happened_time openmrs_concept="162880^SGBV happened Time^99DCT" openmrs_datatype="NM">
+        <date xsi:nil="true"/>
+        <time xsi:nil="true"/>
+        <value xsi:nil="true"/>
+    </sgbv_happened_time>
+    <high-risk_pregnancy openmrs_concept="162871^High-risk Pregnancy^99DCT" openmrs_datatype="BIT">
+        <date xsi:nil="true"/>
+        <time xsi:nil="true"/>
+        <value infopath_boolean_hack="1" xsi:nil="true"/>
+    </high-risk_pregnancy>
+    <birth_weight openmrs_concept="162815^Birth Weight^99DCT" openmrs_datatype="NM">
+        <date xsi:nil="true"/>
+        <time xsi:nil="true"/>
+        <value xsi:nil="true"/>
+    </birth_weight>
+    <skilled_health_worker_attendance openmrs_concept="162866^Skilled Health Worker Attendance^99DCT" openmrs_datatype="BIT">
+        <date xsi:nil="true"/>
+        <time xsi:nil="true"/>
+        <value infopath_boolean_hack="1" xsi:nil="true"/>
+    </skilled_health_worker_attendance>
+    <abortion openmrs_concept="162868^Abortion^99DCT" openmrs_datatype="BIT">
+        <date xsi:nil="true"/>
+        <time xsi:nil="true"/>
+        <value infopath_boolean_hack="1" xsi:nil="true"/>
+    </abortion>
+    <live_births openmrs_concept="162867^Live Births^99DCT" openmrs_datatype="BIT">
+        <date xsi:nil="true"/>
+        <time xsi:nil="true"/>
+        <value infopath_boolean_hack="1" xsi:nil="true"/>
+    </live_births>
+    <obstetrics_complications openmrs_concept="162869^Obstetrics complications^99DCT" openmrs_datatype="BIT">
+        <date xsi:nil="true"/>
+        <time xsi:nil="true"/>
+        <value infopath_boolean_hack="1" xsi:nil="true"/>
+    </obstetrics_complications>
+    <home_delivery openmrs_concept="162870^Home Delivery^99DCT" openmrs_datatype="BIT">
+        <date xsi:nil="true"/>
+        <time xsi:nil="true"/>
+        <value infopath_boolean_hack="1" xsi:nil="true"/>
+    </home_delivery>
+    <treatment_order openmrs_concept="162788^Treatment Order^99DCT" openmrs_datatype="ZZ">
+      <treatment_name openmrs_concept="162786^Treatment Name^99DCT" openmrs_datatype="ST">
+            <date xsi:nil="true"/>
+            <time xsi:nil="true"/>
+            <value xsi:nil="true"/>
+      </treatment_name>
+      <strength_type multiple="0" openmrs_concept="162832^Strength Type^99DCT" openmrs_datatype="CWE">
+            <date xsi:nil="true"/>
+            <time xsi:nil="true"/>
+            <value xsi:nil="true"/>
+      </strength_type>
+      <strength_value openmrs_concept="162852^Strength Value^99DCT" openmrs_datatype="NM">
+            <date xsi:nil="true"/>
+            <time xsi:nil="true"/>
+            <value xsi:nil="true"/>
+      </strength_value>
+      <form multiple="0" openmrs_concept="162858^Form^99DCT" openmrs_datatype="CWE">
+            <date xsi:nil="true"/>
+            <time xsi:nil="true"/>
+            <value xsi:nil="true"/>
+      </form>
+      <available openmrs_concept="162859^Available^99DCT" openmrs_datatype="BIT">
+            <date xsi:nil="true"/>
+            <time xsi:nil="true"/>
+            <value infopath_boolean_hack="1" xsi:nil="true"/>
+      </available>
+    </treatment_order>
+    <vaccine_diagnosis openmrs_concept="162801^Vaccine Diagnosis^99DCT" openmrs_datatype="ZZ">
+      <vaccine_question multiple="0" openmrs_concept="162802^Vaccine Question^99DCT" openmrs_datatype="CWE">
+            <date xsi:nil="true"/>
+            <time xsi:nil="true"/>
+            <value xsi:nil="true"/>
+      </vaccine_question>
+      <vaccine_dose_question multiple="0" openmrs_concept="162803^Vaccine Dose Question^99DCT" openmrs_datatype="CWE">
+            <date xsi:nil="true"/>
+            <time xsi:nil="true"/>
+            <value xsi:nil="true"/>
+      </vaccine_dose_question>
+    </vaccine_diagnosis>
+    <disposition multiple="0" openmrs_concept="162850^Disposition^99DCT" openmrs_datatype="CWE">
+        <date xsi:nil="true"/>
+        <time xsi:nil="true"/>
+        <value xsi:nil="true"/>
+    </disposition>
+    <comments openmrs_concept="162851^Comments^99DCT" openmrs_datatype="ST">
+        <date xsi:nil="true"/>
+        <time xsi:nil="true"/>
+        <value xsi:nil="true"/>
+    </comments>
+    <history_story openmrs_concept="162865^History Story^99DCT" openmrs_datatype="ST">
+        <date xsi:nil="true"/>
+        <time xsi:nil="true"/>
+        <value xsi:nil="true"/>
+    </history_story>
+    <laboratory_tests openmrs_concept="162864^Laboratory tests^99DCT" openmrs_datatype="ST">
+        <date xsi:nil="true"/>
+        <time xsi:nil="true"/>
+        <value xsi:nil="true"/>
+    </laboratory_tests>
+    <follow_up openmrs_concept="162863^Follow up^99DCT" openmrs_datatype="ST">
+        <date xsi:nil="true"/>
+        <time xsi:nil="true"/>
+        <value xsi:nil="true"/>
+    </follow_up>
+  </obs>
+  <obs><other_opd_diagnosis/><value/></obs><obs><other_rh_diagnosis/><value/></obs><obs><other_trauma_diagnosis/><value/></obs><obs><other_nutrition_diagnosis/><value/></obs></form>

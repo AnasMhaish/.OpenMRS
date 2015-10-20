@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><form xmlns:openmrs="formentry.infopath_server_url cannot be empty/moduleServlet/formentry/forms/schema/10-1" xmlns:jr="http://openrosa.org/javarosa" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="10" name="Treatment" uuid="12cab0d5-89ab-46ca-8dc8-8ce87f1936c7" version="3.0">
+  <header>
+    <enterer>1^Super User</enterer>
+    <date_entered>2015-08-24T13:45:09+03:00</date_entered>
+    <session>AD055127F94151EAC739F29AB80AE84F</session>
+    <uid>GJPTZq73x9oXo89CwZ25</uid>
+  </header>
+  <patient uuid="c5f15b61-7bee-4912-be43-650c3d1816f6">
+    <patient.birthdate openmrs_attribute="birthdate" openmrs_table="patient">2012-08-15</patient.birthdate>
+    <patient.family_name openmrs_attribute="family_name" openmrs_table="patient_name">test</patient.family_name>
+    <patient.given_name openmrs_attribute="given_name" openmrs_table="patient_name">test</patient.given_name>
+    <patient.medical_record_number openmrs_attribute="identifier" openmrs_table="patient_identifier"/>
+    <patient.middle_name openmrs_attribute="middle_name" openmrs_table="patient_name">test</patient.middle_name>
+    <patient.patient_id openmrs_attribute="patient_id" openmrs_table="patient">3</patient.patient_id>
+    <patient.sex openmrs_attribute="gender" openmrs_table="patient">M</patient.sex>
+    <patient_relative>
+      <patient_relative.person/>
+      <patient_relative.relationship/>
+    </patient_relative>
+  </patient>
+  <encounter>
+    <encounter.encounter_datetime openmrs_attribute="encounter_datetime" openmrs_table="encounter">2015-08-24</encounter.encounter_datetime>
+    <encounter.location_id openmrs_attribute="location_id" openmrs_table="encounter">1</encounter.location_id>
+    <encounter.provider_id openmrs_attribute="provider_id" openmrs_table="encounter" provider_id_type="PROVIDER.ID">5</encounter.provider_id>
+  </encounter>
+  <obs openmrs_concept="162778^MEDICAL RECORD OBSERVATIONS^99DCT" openmrs_datatype="ZZ">
+    <date xsi:nil="true"/>
+    <time xsi:nil="true"/>
+    <value xsi:nil="true"/>
+  </obs>
+  <person_attribute21>162643^Amoxicllin, Cap^99DCT</person_attribute21></form>

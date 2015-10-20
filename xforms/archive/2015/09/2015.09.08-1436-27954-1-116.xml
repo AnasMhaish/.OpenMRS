@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><form xmlns:openmrs="formentry.infopath_server_url cannot be empty/moduleServlet/formentry/forms/schema/26-1" xmlns:jr="http://openrosa.org/javarosa" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="26" name="Add Vaccines" uuid="1157abaf-93b6-4ae8-9c8e-f520d80cfb44" version="2">
+  <header>
+    <enterer>1^Super User</enterer>
+    <date_entered>2015-09-08T14:36:27+03:00</date_entered>
+    <session>EB86D5CBFF2E6C0CD68BEEF788701ACC</session>
+    <uid>xF2unQH1SuoA30PThSjy</uid>
+  </header>
+  <patient uuid="8e66338f-c182-4eb8-a081-2566cc5850b7">
+    <patient.birthdate openmrs_attribute="birthdate" openmrs_table="patient">2011-09-07</patient.birthdate>
+    <patient.family_name openmrs_attribute="family_name" openmrs_table="patient_name">test3</patient.family_name>
+    <patient.given_name openmrs_attribute="given_name" openmrs_table="patient_name">test3</patient.given_name>
+    <patient.medical_record_number openmrs_attribute="identifier" openmrs_table="patient_identifier"/>
+    <patient.middle_name openmrs_attribute="middle_name" openmrs_table="patient_name">test3</patient.middle_name>
+    <patient.patient_id openmrs_attribute="patient_id" openmrs_table="patient">16</patient.patient_id>
+    <patient.sex openmrs_attribute="gender" openmrs_table="patient">F</patient.sex>
+    <patient_relative>
+      <patient_relative.person/>
+      <patient_relative.relationship/>
+    </patient_relative>
+  </patient>
+  <encounter>
+    <encounter.encounter_datetime openmrs_attribute="encounter_datetime" openmrs_table="encounter">2015-09-08</encounter.encounter_datetime>
+    <encounter.location_id openmrs_attribute="location_id" openmrs_table="encounter">1</encounter.location_id>
+    <encounter.provider_id openmrs_attribute="provider_id" openmrs_table="encounter" provider_id_type="PROVIDER.ID">2</encounter.provider_id>
+  </encounter>
+  <obs openmrs_concept="162778^MEDICAL RECORD OBSERVATIONS^99DCT" openmrs_datatype="ZZ">
+    <vaccine_order openmrs_concept="162801^Vaccine Order^99DCT" openmrs_datatype="ZZ">
+      <vaccine_question multiple="0" openmrs_concept="162802^Vaccine Question^99DCT" openmrs_datatype="CWE">
+            <date xsi:nil="true"/>
+            <time xsi:nil="true"/>
+            <value xsi:nil="true">162799^Measles^99DCT</value>
+      </vaccine_question>
+      <vaccine_dose_question multiple="0" openmrs_concept="162803^Vaccine Dose Question^99DCT" openmrs_datatype="CWE">
+            <date xsi:nil="true"/>
+            <time xsi:nil="true"/>
+            <value xsi:nil="true">162792^Dose 2^99DCT</value>
+      </vaccine_dose_question>
+    </vaccine_order>
+  </obs>
+  <encounter><encounter.visit_id/></encounter></form>

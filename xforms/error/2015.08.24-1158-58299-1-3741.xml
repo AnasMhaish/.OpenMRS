@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><form xmlns:jr="http://openrosa.org/javarosa" xmlns:openmrs="formentry.infopath_server_url cannot be empty/moduleServlet/formentry/forms/schema/7-1" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="7" name="Treatment" uuid="1c241e8d-2529-46e6-bf4b-edd2f0117ae5" version="1.0">
+  <header>
+    <enterer>1^Super User</enterer>
+    <date_entered>2015-08-24T11:58:58+03:00</date_entered>
+    <session>C2FC6EA6E102A51CBA5342032AADDF30</session>
+    <uid>y1rOkJcErqGQZeBo0TMT</uid>
+  </header>
+  <patient uuid="c5f15b61-7bee-4912-be43-650c3d1816f6">
+    
+    
+    
+    
+    
+    
+    
+    
+  </patient>
+  <encounter>
+    
+    
+    
+  </encounter>
+  <obs openmrs_concept="162778^MEDICAL RECORD OBSERVATIONS^99DCT" openmrs_datatype="ZZ">
+    <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+  </obs>
+  <description/><medicines><person_attribute21>162633^Acetylsalicylic Acid 300 mg^99DCT</person_attribute21></medicines><patient><patient.patient_id/></patient></form>

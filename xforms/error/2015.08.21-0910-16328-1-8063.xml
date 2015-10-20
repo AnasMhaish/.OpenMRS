@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><form xmlns:jr="http://openrosa.org/javarosa" xmlns:openmrs="formentry.infopath_server_url cannot be empty/moduleServlet/formentry/forms/schema/6-1" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="6" name="Treatment" uuid="5f986169-aca1-49b7-b5a9-e912652cda47" version="1">
+  <header>
+    <enterer>1^Super User</enterer>
+    <date_entered>2015-08-21T09:10:16+03:00</date_entered>
+    <session>D2CFD2205EF540BF851D37864B79EDDB</session>
+    <uid>1LmqFeKSwqGEsh2439Kq</uid>
+  </header>
+  <patient uuid="c5f15b61-7bee-4912-be43-650c3d1816f6">
+    
+    
+    
+    
+    
+    
+    
+    
+  </patient>
+  <encounter>
+    
+    
+    
+  </encounter>
+  <obs openmrs_concept="162778^MEDICAL RECORD OBSERVATIONS^99DCT" openmrs_datatype="ZZ">
+    <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    <time xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+  </obs>
+  <person_attribute21>test</person_attribute21><person_attribute20>test</person_attribute20><person_attribute19>test</person_attribute19><person_attribute18>3</person_attribute18><person_attribute17>4</person_attribute17></form>
